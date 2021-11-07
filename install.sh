@@ -15,7 +15,7 @@ then
 fi
 
 if ! brew --version > /dev/null; then
-  abort "You need to install homebrew"
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
 echo "✨✨✨"
