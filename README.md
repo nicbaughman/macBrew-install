@@ -1,11 +1,12 @@
 # Build a Mac from Scratch
+> Install almost Everything in one line
 
-## 1. Install Homebrew
-`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
-
-https://brew.sh
-
-## 2. Install Everything Else
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/HigherSelf-Tech/turbo-mac-brew/main/install.sh)"`
 
+
+## Install.sh
 https://github.com/HigherSelf-Tech/turbo-mac-brew/blob/main/install.sh
+
+
+### Thank you
+https://brew.sh
