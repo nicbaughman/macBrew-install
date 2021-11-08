@@ -39,12 +39,15 @@ brew install --cask firefox
 brew install --cask notion
 brew install --cask clocker
 brew install --cask transmission
+brew install --cask the-unarchiver
+brew install --cask raindropio
 
 # Developer
 brew install --cask iterm2
 brew install --cask visual-studio-code
 brew install --cask atom
 brew install --cask docker
+brew install --cask sizzy
 brew install gh
 brew install postgresql
 brew install --cask navicat-premium-essentials
@@ -67,11 +70,17 @@ brew install --cask telegram
 brew install --cask discord
 brew install --cask zoom
 brew install --cask loom
+brew install --cask signal
 
 # Media
 brew install --cask vlc
 brew install --cask audacity
 brew install handbrake
+brew install --cask figma
+
+#Crypto
+brew install --cask binance
+brew install --cask tradingview
 
 echo ""
 echo ""
