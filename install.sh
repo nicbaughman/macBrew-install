@@ -53,6 +53,9 @@ brew install chruby
 brew install node
 brew install yarn
 brew install gawk
+ruby-install --latest
+ruby-install ruby 3.0.1
+ruby-install ruby 2.7.3
 
 # Communication
 brew install --cask slack
