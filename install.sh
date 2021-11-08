@@ -43,6 +43,7 @@ brew install --cask the-unarchiver
 brew install --cask raindropio
 
 # Developer
+brew install --cask billings-pro
 brew install --cask iterm2
 brew install --cask visual-studio-code
 brew install --cask atom
