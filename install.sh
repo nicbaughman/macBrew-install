@@ -54,8 +54,11 @@ brew install node
 brew install yarn
 brew install gawk
 ruby-install --latest
+gem install rails
 ruby-install ruby 3.0.1
+gem install rails
 ruby-install ruby 2.7.3
+gem install rails
 
 # Communication
 brew install --cask slack
