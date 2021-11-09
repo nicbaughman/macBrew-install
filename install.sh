@@ -23,12 +23,16 @@ echo "Alright, awesome!  Let's get this Mac Rocking!"
 echo "Installing the basics: 1Password, Spotify, Chrome and Spectacle 🎧"
 echo "✨✨✨"
 brew install --cask spectacle
+sleep 1
 open -a Spectacle
 brew install --cask 1password
+sleep 1
 open -a 1Password\ 7
 brew install --cask google-chrome
+sleep 1
 open -a Google\ Chrome
 brew install --cask spotify
+sleep 1
 open -a Spotify
 
 echo "✨✨✨"
@@ -72,16 +76,12 @@ echo "source /usr/local/opt/chruby/share/chruby/auto.sh" >> ~/.bash_profile
 echo "source /usr/local/opt/chruby/share/chruby/chruby.sh" >> ~/.zshrc
 echo "source /usr/local/opt/chruby/share/chruby/auto.sh" >> ~/.zshrc
 
-
 brew install node
 brew install yarn
 brew install gawk
 ruby-install --latest
-gem install rails
 ruby-install ruby 3.0.1
-gem install rails
 ruby-install ruby 2.7.3
-gem install rails
 
 # Media
 brew install --cask vlc
