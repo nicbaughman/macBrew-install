@@ -51,6 +51,7 @@ brew install --cask docker
 brew install --cask sizzy
 brew install gh
 brew install postgresql
+brew install redis
 brew install --cask navicat-premium-essentials
 brew install ruby-install
 brew install chruby
