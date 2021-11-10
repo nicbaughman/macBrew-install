@@ -25,12 +25,12 @@ echo "✨✨✨"
 brew install --cask spectacle
 sleep 3
 open -a Spectacle
-brew install --cask 1password
+brew install --cask lastpass
 sleep 3
 open -a 1Password\ 7
-brew install --cask google-chrome
+brew install --cask brave-browser
 sleep 3
-open -a Google\ Chrome
+open -a Brave\ Browser
 brew install --cask spotify
 sleep 3
 open -a Spotify
@@ -45,53 +45,42 @@ brew install --cask whatsapp
 brew install --cask telegram
 brew install --cask discord
 brew install --cask loom
-brew install --cask signal
 
 # OS Basics
 brew install --cask firefox
+brew install --cask alfred
+brew install --cask atext
 brew install --cask notion
-brew install --cask clocker
-brew install --cask transmission
-brew install --cask the-unarchiver
-brew install --cask raindropio
+brew install --cask google-drive
+brew install --cask grammarly
+brew install --cask harvest
 
 # Developer
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" # ZSH
-brew install --cask billings-pro
+brew install --cask colorpicker-materialdesign
+brew install --cask dash
+brew install --cask datadog-agent
+brew install --cask drawio
 brew install --cask iterm2
 brew install --cask visual-studio-code
-brew install --cask atom
 brew install --cask docker
-brew install --cask sizzy
-brew install gh
+brew install --cask github
+brew install --cask githubpulse
+brew install --cask noun-project
+brew install --cask pgadmin4
+brew install --cask postman
+brew install git
 brew install postgresql
 brew install redis
-brew install --cask navicat-premium-essentials
-brew install ruby-install
-brew install chruby
 touch ~/.bash_profile
-touch ~/.zshrc
-echo "source /usr/local/opt/chruby/share/chruby/chruby.sh" >> ~/.bash_profile
-echo "source /usr/local/opt/chruby/share/chruby/auto.sh" >> ~/.bash_profile
-echo "source /usr/local/opt/chruby/share/chruby/chruby.sh" >> ~/.zshrc
-echo "source /usr/local/opt/chruby/share/chruby/auto.sh" >> ~/.zshrc
+touch ~/.bashrc
+(cd /tmp && ([[ -d sexy-bash-prompt ]] || git clone --depth 1 --config core.autocrlf=false https://github.com/twolfson/sexy-bash-prompt) && cd sexy-bash-prompt && make install) && source ~/.bashrc
 
 brew install node
 brew install yarn
-brew install gawk
-ruby-install --latest
-ruby-install ruby 3.0.1
-ruby-install ruby 2.7.3
 
 # Media
-brew install --cask vlc
-brew install --cask audacity
-brew install handbrake
+brew install --cask plex
 brew install --cask figma
-
-#Crypto
-brew install --cask binance
-brew install --cask tradingview
 
 # At the bottom because it asks for sudo password
 brew install --cask zoom
