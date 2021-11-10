@@ -41,7 +41,6 @@ echo "✨✨✨"
 
 # Communication
 brew install --cask slack
-brew install --cask whatsapp
 brew install --cask telegram
 brew install --cask discord
 brew install --cask loom
@@ -51,7 +50,6 @@ brew install --cask firefox
 brew install --cask alfred
 brew install --cask atext
 brew install --cask notion
-brew install --cask google-drive
 brew install --cask grammarly
 brew install --cask harvest
 
@@ -73,8 +71,6 @@ brew install postgresql
 brew install redis
 touch ~/.bash_profile
 touch ~/.bashrc
-(cd /tmp && ([[ -d sexy-bash-prompt ]] || git clone --depth 1 --config core.autocrlf=false https://github.com/twolfson/sexy-bash-prompt) && cd sexy-bash-prompt && make install) && source ~/.bashrc
-
 brew install node
 brew install yarn
 
@@ -84,6 +80,7 @@ brew install --cask figma
 
 # At the bottom because it asks for sudo password
 brew install --cask zoom
+brew install --cask google-drive
 
 
 echo ""
