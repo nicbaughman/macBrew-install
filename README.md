@@ -10,4 +10,5 @@ https://github.com/nicbaughman/turbo-mac-brew/blob/main/install.sh
 
 ### Thank you
 https://brew.sh
+
 [Original Repo](https://github.com/HigherSelf-Tech/macBrew-install)

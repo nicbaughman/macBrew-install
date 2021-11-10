@@ -27,7 +27,7 @@ sleep 3
 open -a Spectacle
 brew install --cask lastpass
 sleep 3
-open -a 1Password\ 7
+open -a LastPass
 brew install --cask brave-browser
 sleep 3
 open -a Brave\ Browser
