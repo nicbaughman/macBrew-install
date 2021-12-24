@@ -56,16 +56,15 @@ brew install --cask harvest
 # Developer
 brew install --cask colorpicker-materialdesign
 brew install --cask dash
-brew install --cask datadog-agent
 brew install --cask drawio
 brew install --cask iterm2
 brew install --cask visual-studio-code
 brew install --cask docker
 brew install --cask github
-brew install --cask githubpulse
 brew install --cask noun-project
 brew install --cask pgadmin4
 brew install --cask postman
+brew install --cask ngrok
 brew install git
 brew install postgresql
 brew install redis
