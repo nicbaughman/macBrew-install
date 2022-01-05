@@ -39,6 +39,31 @@ echo "✨✨✨"
 echo "Installing everthing else.  This is going to take awhile!"
 echo "✨✨✨"
 
+# MacOS Changes
+# https://github.com/mathiasbynens/dotfiles/blob/main/.macos
+
+# Set the icon size of Dock items to 50 pixels
+defaults write com.apple.dock tilesize -integer 50
+
+# Show only open applications in the Dock
+defaults write com.apple.dock static-only -bool true
+
+# Automatically hide and show the Dock
+defaults write com.apple.dock autohide -bool true
+
+# Don’t animate opening applications from the Dock
+defaults write com.apple.dock launchanim -bool false
+
+# Don’t show recent applications in Dock
+defaults write com.apple.dock show-recents -bool false
+
+# Trackpad: enable tap to click for this user and for the login screen
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
+defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
+defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
+
+killall Dock
+
 # Communication
 brew install --cask slack
 brew install --cask telegram
