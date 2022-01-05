@@ -47,11 +47,13 @@ brew install --cask loom
 
 # OS Basics
 brew install --cask firefox
+brew install --cask flux
 brew install --cask alfred
 brew install --cask atext
 brew install --cask notion
 brew install --cask grammarly
 brew install --cask harvest
+brew install --cask memory-cleaner
 
 # Developer
 brew install --cask colorpicker-materialdesign
@@ -65,6 +67,7 @@ brew install --cask noun-project
 brew install --cask pgadmin4
 brew install --cask postman
 brew install --cask ngrok
+brew install --cask skitch
 brew install git
 brew install postgresql
 brew install redis
