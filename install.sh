@@ -28,6 +28,9 @@ open -a Spectacle
 brew install --cask lastpass
 sleep 3
 open -a LastPass
+brew install --cask 1password
+sleep 3
+open -a 1Password
 brew install --cask brave-browser
 sleep 3
 open -a Brave\ Browser
@@ -78,7 +81,7 @@ brew install --cask atext
 brew install --cask notion
 brew install --cask grammarly
 brew install --cask harvest
-brew install --cask memory-cleaner
+brew install --cask memory-clean-3
 
 # Developer
 brew install --cask colorpicker-materialdesign
@@ -100,6 +103,7 @@ touch ~/.bash_profile
 touch ~/.bashrc
 brew install node
 brew install yarn
+brew install rbenv
 
 # Media
 brew install --cask plex
